@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_show"
+        android:text="开始"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <Button
+        android:id="@+id/btn_pause"
+        android:text="暂停/继续"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <Button
+        android:id="@+id/btn_destroy"
+        android:text="销毁"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <Button
+        android:id="@+id/btn_next"
+        android:text="进入下个act"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <RelativeLayout
+        android:id="@+id/rl_anim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_tuanzi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

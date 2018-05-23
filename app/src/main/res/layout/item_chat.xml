@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_commit_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_name_a"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="张三 :"/>
+
+        <TextView
+            android:id="@+id/tv_content_a"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="45dp"
+            android:padding="4dp"
+            android:text="这个是聊天内容，这个是聊天内容，这个是聊天内容，这个是聊天内容，这个是聊天内容，"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_commit_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_content_b"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="45dp"
+            android:layout_marginLeft="60dp"
+            android:text="这个是聊天内容，这个到底是发的发送到发的说法发放是哈aaaaee哈哈哈哈大大大哈哈pppppppppppppppppppp哈aaaaladsfklffjakjafflkdaf"
+            />
+
+        <TextView
+            android:id="@+id/tv_name_b"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignParentRight="true"
+            android:padding="4dp"
+            android:text="张三"/>
+    </RelativeLayout>
+
+</LinearLayout>
